@@ -1,1 +1,8 @@
 ---
+environment: production
+environmentCode: snd
+container:
+  azureStorageAccountName: snd2ffcaphwst2001
+  messageQueueHost: SNDFFCINFSB2001.servicebus.windows.net
+  certificateRequestQueue: aphw-ddi-certificate-request
+  eventsTopicAddress: aphw-ddi-events
